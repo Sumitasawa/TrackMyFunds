@@ -1,0 +1,52 @@
+/* Your existing navbar stays unchanged */
+.navbar {
+  background-color: var(--theme);
+  padding: 1rem 0.5rem 1.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.Logo {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;     /* FIXED: remove quotes */
+  margin: 0;
+}
+
+.link {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+/* NEW — Right side container */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* NEW — Avatar Styling */
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.6);  /* white border to match theme */
+}
+
+/* Optional: Make logout button slightly smaller */
+.logout-btn {
+  font-size: 0.95rem;
+  color: white;
+}
