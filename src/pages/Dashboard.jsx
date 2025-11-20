@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Header from "../component/Header";
 import Cards from "../component/Cards";
-import AddExpense from "../component/Modals/addExpense";
-import AddIncome from "../component/Modals/addIncome";
+import AddExpense from "../component/Modals/AddExpense";
+import AddIncome from "../component/Modals/AddIncome";
 import EditTransaction from "../component/Modals/EditTransactionModal";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase";
